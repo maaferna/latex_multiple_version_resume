@@ -1,0 +1,435 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{DS_class_file} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\mllibs{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{~~~~~~~Data~~~~~~~},
+        \textbf{~~~~~PyTorch~~~~~},
+        \textbf{~~~~XGBoost~~~~},
+        \textbf{~~~~LightGBM~~~~},
+		\textbf{~~~~~Scikit~~~~~~}\\\textbf{~~~Learn~~~},
+		\textbf{~~~~MLFlow~~~~}
+    }
+}
+
+\newcommand\pythonlibs{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{~~~~~~Python~~~~~~},
+        \textbf{~~~~~FastAPI~~~~~},
+        \textbf{~~~~~PyTest~~~~~},
+        \textbf{~~~~~Hydra~~~~},
+        \textbf{~~~~~Requests~~~~},
+        \textbf{~~~~~Django~~~~},
+        \textbf{~CookieCutter~}
+    }
+}
+
+
+
+% \newcommand\hobies{ 
+% ~
+% 	\smartdiagram[bubble diagram]{
+%         \textbf{~~~~Myself~~~~},
+%         \textbf{~~~~Reading~~~~}\\\textbf{~~~Books~~~},
+%         \textbf{~~~~Travelling~~~~},
+%         \textbf{~~~~Watching~~~~}\\\textbf{~~~Movies~~~},
+%         \textbf{~~~~Trekking~~~~}
+%     }
+% }
+
+
+
+
+% Programming skill bars
+\programming{{$\textbullet$ AWS $\textbullet$ Airflow $\textbullet$ Big Data / 2.0}, {$\textbullet$ Microsoft Office $\textbullet$ Docker  $\textbullet$ SQL/ 3.0}, {$\textbullet$ Linux $\textbullet$ Git / 4.0}, 
+{$\textbullet$ Python / 6.0}}
+\vspace{10mm}
+\programminglanguage{{ Arabic (A2 - Elementary Level) / 2.5 }, { English (C1 - Professional Work Ability) / 5}, { Turkish (C2 - Native Language) / 6}}
+% Projects text
+%\vspace{15mm}
+%\languages{
+%		\textbf{English-C1}- Advanced in Listening, Reading, Writing and Speaking.\\
+%        \textbf{Arabic-A2} - Having basic knowledge about Arabic.
+%}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need onse or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+\profilepic{mbk.jpg}% My photo is here
+\cvname{\hspace{-0.5cm}Muhammed\newline\newline} % My name.
+\cvsurname{\hspace{-0.6cm}Büyükkınacı} % My surname
+\cvjobtitle{\hspace{0.05cm}Data Scientist} % My position.
+% title/career
+
+\cvlinkedin{maaferna}
+\cvgithub{maaferna}
+\cvnumberphone{+56 9 5629 1334} % Phone number
+\cvsite{Chillán-Chile} % Where I live.
+\cvwebsite{muhammedbuyukkinaci.com}
+\cvmail{maaferna@gmail.com} % Email address
+
+\aboutme{
+I am a T-shaped Data Scientist who has general knowledge \& experience on different IT areas such as Web Development, Data Engineering, Testing, System Engineering, Containerization etc. I have been coding in Python more than 5 years. My passion is to extract insight \& value through Data Science techniques. I am not only an IT Engineer but also a life-long learner. I am able to create real-world Data Science projects in an end-to-end pipeline. I am trying to follow and implement SOLID principles as much as possible. I am also trying to integrate MLOps practices into my job.
+
+Speaking of my personality, I am an extrovert, open-minded \& ambitious person. I also have excellent communication skills. I am using my soft \& hard skills to be one of the best Data Scientists in the industry.
+}
+
+% .
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Printing sidebar
+
+%----------------------------------------------------------------------------------------
+%	 Cover Letter
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+   	\twentyitem
+	    {2012 Sep}
+	    {2018 Jan}
+	    {\hspace{0.2cm}Bachelor of Science, Industrial Engineering}
+	    {\href{http://www.ie.boun.edu.tr/}{\hspace{0.27cm} \textbf{Boğaziçi University} }}
+	    {}
+	    {\begin{itemize}
+			\item Taking Data Mining \& Time Series Forecasting courses as electives.
+			\item Forecasting hourly electricity consumption of a specific region using different Machine Learning Algorithms in my graduation project.
+
+		\end{itemize}} 
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty}
+    \twentyitem
+		{Dec 2021}
+		{Present}
+		{\hspace{0.3cm}Data Scientist}
+		{\href{https://www.hepsiemlak.com/}{\textbf{HepsiEmlak}}}
+		{}
+		{\begin{itemize}
+			\item Creating various image processing, regression, segmentation \& classification projects on image data.
+			\item Using Pillow, PyTorch and Transfer Learning models to build up projects.
+			\item Predicting realty prices (known as Automated Valuation Model) using Machine Learning.
+			\item Actively using Apache Kafka, RabbitMQ, Spark, Hadoop and Docker in development and Kubernetes \& Jenkins in deployments.
+		\end{itemize}}
+		\\
+	\twentyitem
+		{Oct 2019}
+		{Dec 2021}
+		{\hspace{0.3cm}Data Scientist}
+		{\href{https://www.urbanstat.com/}{\textbf{UrbanStat}}}
+		{}
+		{\begin{itemize}
+			\item Creating ML based risk scores for automobiles \& houses for the use of insurance companies.
+			\item Predicting wildfires and dangerous regions in California \& West Coast of US using ML algorithms. Using SHAP library to present interpretable outputs.
+			\item Dockerizing developed models to be moved into production.
+			\item Developing a churn project for house policies.
+			\item Excessively using libraries of Lightgbm \& Xgboost.
+		\end{itemize}}
+		\\
+	\twentyitem
+		{Sep 2018}
+		{Oct 2019}
+		{\hspace{0.3cm}Fraud Systems Engineer}
+		{\href{https://www.turkcell.com.tr/}{\textbf{Turkcell}}}
+		{}
+		{\begin{itemize}
+			\item Leading a ML project that aims to predict which customers are going to object to their invoices. Trying to lower the returns that customers get from Turkcell. Dealing with an unbalanced problem.
+			\item Monitoring Fraud and Credit Control services of Turkcell. Deploying software packages on live environment.
+		\end{itemize}}
+		\\
+	\twentyitem
+		{Apr 2018}
+		{Aug 2019}
+		{\hspace{0.3cm}Junior Data Scientist}
+		{\href{http://www.organonanalytics.com/pages/index.php}{\textbf{Organon Analytics}}}
+		{}
+		{\begin{itemize}
+			\item Designing dashboards for end users in Shiny library of R.
+			\item Automating workflows through Python scripts.
+		\end{itemize}}
+		\\
+	\twentyitem
+    	{Nov 2017}
+		{Mar 2018}
+        {\hspace{0.3cm}Freelance Coder}
+        {\textbf{AG Bioinformatics}}
+        {}
+        {\begin{itemize}
+        \item Designing and coding experiments used for EEG Analysis.
+        \item Actively using Python and Neurobs's Presentation Software.
+        \end{itemize}}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Achievements
+%----------------------------------------------------------------------------------------
+\section{Achievements}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem
+	{\href{https://www.kaggle.com}{Kaggle}}
+	{}
+	{\hspace{0.3cm}\href{https://www.kaggle.com/mbkinaci}{Kaggle Expert}}
+	{}
+	{}
+	{
+		{\begin{itemize}
+				\item Collecting 3 silver and 2 bronze medals in competitions. Joining more than 20 competitions.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{2017 ALES}
+	{}
+	{\hspace{0.3cm}Coming 147th in Turkey}
+	{}
+	{}
+	{
+		{\begin{itemize}
+				\item Coming in 147th in 2017 Spring ALES(Academic Personnel and Postgraduate Education Entrance Exam) among 300 thousand people.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{2012 YGS}
+	{}
+	{\hspace{0.3cm}Coming 300th in Turkey}
+	{}
+	{}
+	{\begin{itemize}
+			\item Coming in 300th in 2012 YGS(The Transition to Higher Education \newline Examination) among 1 million 860 thousand people.       
+	\end{itemize}}
+
+\end{twenty}
+
+\newpage
+
+\makeseconda % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+
+\begin{twenty} % Environment for a list with descriptions
+    
+	\twentyitem
+	{Django}
+	{App}
+	{\hspace{0.3cm}\href{https://muhammedbuyukkinaci.com}{muhammedbuyukkinaci.com}}
+	{\href{https://github.com/MuhammedBuyukkinaci/muhammedbuyukkinaci.com}{\textbf{GitHub Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item A dynamic Django Application deployed on a VPS of DigitalOcean.
+				\item Using Bootstrap, JavaScript, PostgreSQL, NGINX, Gunicorn and Docker to build up the website.
+		\end{itemize}}
+	}
+	\\
+	
+	\twentyitem
+	{Time}
+	{Series}
+	{\hspace{0.3cm}Bitcoin Trading}
+	{\href{https://github.com/MuhammedBuyukkinaci/Bitcoin-Trading}{\textbf{GitHub Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Building up an LSTM model to predict price volatility on 4-hourly Bitcoin data.
+				\item Obtaining a fractional important signal on trading.
+		\end{itemize}}
+	}
+	\\
+	
+	\twentyitem
+	{Image}
+	{Segmentation}
+	{\hspace{0.3cm}DeText}
+	{\href{https://github.com/MuhammedBuyukkinaci/DeText}{\textbf{GitHub Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Creating an imitated dataset via printing texts on images.
+				\item Tranining a UNet model to remove texts on images via TensorFlow.
+		\end{itemize}}
+	}
+	\\
+    
+	\twentyitem
+	{Image}
+	{Classification}
+	{\hspace{0.3cm}Multiclass Image Classification With TensorFlow}
+	{\href{https://github.com/MuhammedBuyukkinaci/TensorFlow-Multiclass-Image-Classification-using-CNN-s}{\textbf{GitHub Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Training a CNN (AlexNet) on multiple classes from scratch.
+		\end{itemize}}
+	}
+% 	\\
+% 	\twentyitem
+% 	{Object}
+% 	{Localization}
+% 	{\hspace{0.3cm}Object Localization With TensorFlow}
+% 	{\href{https://github.com/MuhammedBuyukkinaci/Object-Classification-and-Localization-with-TensorFlow}{\textbf{GitHub Link}}}
+% 	{}
+% 	{
+% 	{\begin{itemize}
+% 			\item Building a multiple-headed CNN, one for regression and one for classification.
+% 	\end{itemize} }
+% 	}
+% 	\twentyitem
+% 	{Sentiment}
+% 	{Analysis}
+% 	{\hspace{0.3cm}Sentiment Analysis with TensorFlow}
+% 	{\href{https://github.com/MuhammedBuyukkinaci/TensorFlow-Sentiment-Analysis-on-Amazon-Reviews-Data}{\textbf{GitHub Link}}}
+% 	{}
+% 	{
+% 		{\begin{itemize}
+% 				\item Solving the binary classification problem with LSTM's and GRU's.
+% 				\item Implementing Conv1D and Conv2D before LSTM and GRU layers.
+% 				\item Adding Attention layer \& BN layer before Dense layers.
+% 		\end{itemize}}
+% 	}
+% 	\\
+	
+	
+\end{twenty}
+
+\section{Certificates}
+
+\begin{twenty} % Environment for a list with descriptions
+    \twentyitem
+	{AWS}
+	{}
+	{\hspace{0.3cm}Introduction to AWS}
+	{\href{https://www.udemy.com/certificate/UC-8773cc22-c86d-43a9-89ad-4c4e8e02aa38/}{\textbf{Certificate Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Completing a 25-hours AWS Course on Udemy. Putting my notes on a Github repository.
+				\item Learning fundamentals of AWS. Having a detailed knowledge on EC2, S3, VPC, RDS and DynamoDB.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{MLOps}
+	{}
+	{\hspace{0.3cm}Complete MLOPS Bootcamp}
+	{\href{https://www.udemy.com/certificate/UC-2296034a-bb96-4d35-80b5-dd956cceeeb7/}{\textbf{Certificate Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Completing a 3.5 hours MLOps course and listing my learnings on Github.
+				\item Learning useful tools for MLOps practices to improve Machine Learning Development Lifecycle.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{Docker}
+	{}
+	{\hspace{0.3cm}Docker A-Z™}
+	{\href{https://www.udemy.com/certificate/UC-c1ab98de-9803-452b-9166-8ef3ae797e5a/}{\textbf{Certificate Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Completing a 16-hours Docker Course on Udemy and putting my takeaways upto a GitHub Repository.
+				\item Having a detailed knowledge on Docker.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{Linux}
+	{}
+	{\hspace{0.3cm}Linux A-Z™}
+	{\href{https://www.udemy.com/certificate/UC-74719d94-89af-44ba-ab2d-4299dd2ec3dd/}{\textbf{Certificate Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Completing a 10-hours Linux Course on Udemy and listing my notes on a GitHub Repository.
+				\item Enhancing my Linux knowledge.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{Big Data}
+	{}
+	{\hspace{0.3cm}Big Data A-Z™}
+	{\href{https://www.udemy.com/certificate/UC-4a851250-cc99-4a9d-8f7c-d8a32ed0a832/}{\textbf{Certificate Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Completing a 12-hours Big Data Course on Udemy and listing my learnings on Github.
+				\item Having basics of Apache Kafka, Hadoop, Spark and other NoSQL technologies.
+		\end{itemize}}
+	}
+	\\
+	\twentyitem
+	{Airflow}
+	{}
+	{\hspace{0.3cm}Introduction to Apache Airflow}
+	{\href{https://www.udemy.com/certificate/UC-634f3164-fcb1-4bdf-b5b0-909134dd3252/}{\textbf{Certificate Link}}}
+	{}
+	{
+		{\begin{itemize}
+				\item Completing a 2.5 hours Airflow course and listing my learnings on Github.
+				\item Comprehending basics of Airflow.
+		\end{itemize}}
+	}
+	
+
+	
+\end{twenty}
+
+% \section{References}
+
+% \begin{twenty} % Environment for a list with descriptions
+% 	\twentyitem
+% 	{Reference 1}
+% 	{}
+% 	{\hspace{0.3cm}Onur Tüfekçioğlu}
+% 	{\textbf{Senior System Engineer at Turkcell}}
+% 	{}
+% 	{
+% 		{\begin{itemize}
+% 				\item E-mail Address: tufekciogluonur@gmail.com
+% 		\end{itemize}}
+% 	}
+% 	\\
+% 	\twentyitem
+% 	{Reference 2}
+% 	{}
+% 	{\hspace{0.3cm}Fatih Öztürk}
+% 	{\textbf{Data Scientist at h2o.ai}}
+% 	{}
+% 	{
+% 		{\begin{itemize}
+% 				\item E-mail Address: fatihozturk1994@gmail.com
+% 		\end{itemize}}
+% 	}
+
+	
+% \end{twenty}
+
+
+
+\end{document}
