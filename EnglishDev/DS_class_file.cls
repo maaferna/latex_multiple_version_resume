@@ -1,4 +1,4 @@
-\ProvidesClass{twentysecondcv}[2015/02/28 CV class]
+\ProvidesClass{twentysecondcv}[2024/06/09 CV class]
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
 
@@ -143,7 +143,7 @@
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainpurple,mainpurple,text=white] (char) {#1};}}
 
 % Command for printing skill progress bars
-\newcommand\programming[1]{ 
+\newcommand\programming[1]{
 	\renewcommand{\programming}{
 		\begin{tikzpicture}
 			\foreach [count=\i] \x/\y in {#1}{
@@ -155,7 +155,7 @@
 	}
 }
 
-\newcommand\programminglanguage[1]{ 
+\newcommand\programminglanguage[1]{
 	\renewcommand{\programminglanguage}{
 		\begin{tikzpicture}
 		\foreach [count=\i] \x/\y in {#1}{
@@ -167,7 +167,7 @@
 	}
 }
 
-%\newcommand\languages[1]{ 
+%\newcommand\languages[1]{
 %	\renewcommand{\languages}{
 %		{#1}
 %	}
@@ -181,43 +181,43 @@
 	\begin{tikzpicture}[remember picture,overlay]
 	\node [rectangle, fill=sidecolor, anchor=north, minimum width=9.2cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
 	\end{tikzpicture}
-	
+
 	%------------------------------------------------
-	
+
 	\begin{textblock}{6}(0.55, 0.2)
 		%Yeni------------------------------------------------
 		\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
 		\clip (600/2, 567/2) circle (567/2);
-		
+
 		\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{\profilepic}};
 		\end{tikzpicture}
 		%Yeni------------------------------------------------
 		%------------------------------------------------
-		
+
 		\vspace{2mm}
 		{\Huge\color{mainpurple}\hspace{5mm}\cvname}
 		\vspace{1mm}
 		{\Huge\color{mainpurple}\hspace{5mm}\cvsurname}
-		
+
 		\vspace{1mm}
-		
+
 		%------------------------------------------------
-		
+
 		{\Large\color{headercolor}\hspace{0.1mm}\cvjobtitle}
-		
+
 		\vspace{0.5cm}
 		%------------------------------------------------
-		
+
 		\renewcommand{\arraystretch}{2}
 		\begin{tabular}{p{0.4cm} @{\hskip 0.5cm}p{20cm}}
       \ifthenelse{\equal{\cvnumberphone}{}}{}{
       		{$
               \begin{array}{l}
-              \hspace{-2.2mm} \Huge \textnormal{\faMobilePhone} 
+              \hspace{-2.2mm} \Huge \textnormal{\faMobilePhone}
               \end{array}
-              $} 
+              $}
             & \cvnumberphone\\}
-            
+
    \ifthenelse{\equal{\cvsite}{}}{}{
             {$
               \begin{array}{l}
@@ -233,7 +233,7 @@
    		 \end{array}
    	 $}
     & \href{https://\cvwebsite}{\cvwebsite} \\}
-      
+
 \ifthenelse{\equal{\cvlinkedin}{}}{}{
             {$
               \begin{array}{l}
@@ -247,44 +247,44 @@
 		\hspace{-3.0mm} \huge \textnormal{\faGithub}
 		\end{array}
 		$} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
-		}   
+		}
     \end{tabular}
-    
-    
+
+
     \vspace{0.5cm}
-    
+
     % about me text
     % \profilesection{\color{headercolor}\hspace{5mm}About me}{0.0cm}
     \profilesection{\color{headercolor}\hspace{5mm}Perfil profesional}{0.0cm}
-    
+
     \vspace{1.0mm}
-    
+
     \givenaboutme
 
     %------------------------------------------------
     \vspace{0.2mm}
-    
+
     % \profilesection{\color{headercolor}Capabilities}{0.0cm}
 
 % 	\hspace{-5mm}\yetenek
-        
+
         %------------------------------------------------
-        
+
 %         \vspace{2mm}
-       
-% 	 {\large \textbf{\color{headercolor}Programming Skills}} 
+
+% 	 {\large \textbf{\color{headercolor}Programming Skills}}
 
 % 		 \programming
-		 
+
 % 		 \vspace{2mm}
-		 
+
 % 	 {\large \textbf{\color{headercolor}Languages}}
-	 
+
 % 	  	\programminglanguage
-	  	
-	  	
-        %\profilesection{Languages}{0.0cm} 
-        
+
+
+        %\profilesection{Languages}{0.0cm}
+
         %\languages
   \end{textblock}
 }
@@ -335,7 +335,7 @@
 
 \newcommand{\twentyitem}[6]{%
 	#1&\parbox[t]{0.93\textwidth}{%
-		\textbf{#3}% 
+		\textbf{#3}%
 		\hfill%
 		{\footnotesize#4}%
         }\\%
@@ -417,7 +417,7 @@
 %------------------------------------------------
 
 \begin{textblock}{6}(0.55, 0.2)
-			
+
 		%------------------------------------------------
 
 \vspace{0.7cm}
