@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/CVE-2023-32700 patched)  (format=lualatex 2023.2.15)  9 JUN 2023 18:37
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/CVE-2023-32700 patched)  (format=lualatex 2023.2.15)  11 JUN 2023 19:08
  restricted system commands enabled.
 **DS_tex_file.tex
 (./DS_tex_file.tex
@@ -1133,24 +1133,29 @@ Overfull \hbox (7.1367pt too wide) in paragraph at lines 68--68
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 70.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 82.
+(Font)              scaled to size 8.0pt on input line 81.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 82.
+(Font)              scaled to size 8.0pt on input line 81.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--105
+Overfull \hbox (6.97191pt too wide) in alignment at lines 72--103
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
-[]\TU/ClearSans(0)/m/n/10 Adquirir conocimien-tos fun-da-men-tales en Open Sourc
-e Soft-ware,
+Underfull \hbox (badness 7415) in paragraph at lines 119--119
+[]\TU/ClearSans(0)/m/n/10 Data struc-tures (ac-qui-si-tion, clean-ing, anal-y-si
+s, and vi-su-al-iza-tion),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--220
+Underfull \hbox (badness 10000) in paragraph at lines 108--217
 
  []
 
@@ -1165,59 +1170,64 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pd
 ftex.map}<./mbk.jpg>]
-Overfull \hbox (7.82854pt too wide) in paragraph at lines 225--225
+Overfull \hbox (7.82854pt too wide) in paragraph at lines 222--222
 []\TU/ClearSans(0)/m/n/20.74 Pro-gram-ming Skills
  []
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-LaTeX Warning: Command \textbullet invalid in math mode on input line 225.
+LaTeX Warning: Command \textbullet invalid in math mode on input line 222.
 
 
-Overfull \hbox (8.62671pt too wide) in paragraph at lines 225--225
+Overfull \hbox (8.62671pt too wide) in paragraph at lines 222--222
 [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 225.
+(Font)              scaled to size 12.0pt on input line 222.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 225.
+(Font)              scaled to size 12.0pt on input line 222.
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 225--225
+Overfull \hbox (0.4pt too wide) in paragraph at lines 222--222
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--277
+Overfull \hbox (6.97191pt too wide) in alignment at lines 225--275
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--276
 
  []
 
@@ -1232,8 +1242,8 @@ Here is how much of LuaTeX's memory you used:
  1509 words of node memory still in use:
    32 hlist, 1 vlist, 10 rule, 18 glue, 3 kern, 1 glyph, 97 attribute, 65 glue_s
 pec, 97 attribute_list, 2 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:1,2:2775,3:1817,4:132,5:660,6:102,7:9214,8:33,9:837,10:16,11:7
-58
+   avail lists: 1:1,2:2727,3:1765,4:106,5:633,6:105,7:8404,8:35,9:857,10:16,11:7
+09
  46987 multiletter control sequences out of 65536+600000
  67 fonts using 10655743 bytes
  115i,17n,111p,504b,859s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1241,10 +1251,10 @@ pec, 97 attribute_list, 2 write, 39 pdf_literal, 18 pdf_colorstack nodes
 usr/share/fonts/fontawesome/FontAwesome.otf></usr/share/texlive/texmf-dist/fonts
 /truetype/intel/clearsans/ClearSans-Bold.ttf></usr/share/texlive/texmf-dist/font
 s/truetype/intel/clearsans/ClearSans-Regular.ttf><./segoeuib.ttf>
-Output written on DS_tex_file.pdf (2 pages, 115074 bytes).
+Output written on DS_tex_file.pdf (2 pages, 114345 bytes).
 
-PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  196 words of extra memory for PDF output out of 10000 (max. 100000000)
 
