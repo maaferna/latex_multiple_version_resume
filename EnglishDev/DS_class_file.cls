@@ -239,7 +239,7 @@
               \begin{array}{l}
               \hspace{-3.0mm} \huge \textnormal{\textcolor{linkedin}{\faLinkedinSquare}}
               \end{array}
-              $} & \href{https://www.linkedin.com/in/\cvlinkedin/}{\cvlinkedin} \\
+              $} & \href{https://www.linkedin.com/in/marco-antonio-parra-82999337/\cvlinkedin/}{\cvlinkedin} \\
             }
         \ifthenelse{\equal{\cvgithub}{}}{}{
 		{$
@@ -441,7 +441,7 @@
 {\large \textbf{\color{headercolor}Languages}}
 
 \programminglanguage
-{“Certificate of Proficiency with LEVEL 8 in platform Open English: "for demonstrating profiencies that align to Level B2 as described by the Common European Framework for Reference (CEFR) for lenguagues as of this 28th day of August, 2021."}
+{“Certificate of Proficiency with LEVEL 8 in platform Open English: "for demonstrating proficiency that align to Level B2 as described by the Common European Framework for Reference (CEFR) for languages as of this 28th day of August, 2021."}
 
 
 \vspace{0.7cm}

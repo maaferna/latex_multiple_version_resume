@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/CVE-2023-32700 patched)  (format=lualatex 2023.2.15)  9 JUN 2023 18:36
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/CVE-2023-32700 patched)  (format=lualatex 2023.2.15)  23 JUL 2023 18:30
  restricted system commands enabled.
 **DS_tex_file.tex
 (./DS_tex_file.tex
@@ -47,7 +47,7 @@ Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 LaTeX Warning: You have requested document class `DS_class_file',
                but the document class provides `twentysecondcv'.
 
-Document Class: twentysecondcv 2024/06/09 CV class
+Document Class: twentysecondcv 2023/07/23 CV class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -1106,23 +1106,18 @@ Overfull \hbox (11.70213pt too wide) in paragraph at lines 68--68
  []
 
 
-Overfull \hbox (18.11761pt too wide) in paragraph at lines 68--68
-\TU/ClearSans(0)/m/n/10 cación y con-trol de la pro-duc-ción. Además,
+Overfull \hbox (5.92198pt too wide) in paragraph at lines 68--68
+\TU/ClearSans(0)/m/n/10 cia tec-nológ-ica. Soy un pro-fe-sional apa-
  []
 
 
-Overfull \hbox (1.64027pt too wide) in paragraph at lines 68--68
-\TU/ClearSans(0)/m/n/10 en el de-sar-rollo web y análi-sis de datos.
+Overfull \hbox (2.64127pt too wide) in paragraph at lines 68--68
+\TU/ClearSans(0)/m/n/10 struc-ción y man-ten-ción de apli-ca-ciones
  []
 
 
-Overfull \hbox (1.88931pt too wide) in paragraph at lines 68--68
-\TU/ClearSans(0)/m/n/10 con-tin-uar de-sar-rol-lando una car-rera en
- []
-
-
-Overfull \hbox (4.63507pt too wide) in paragraph at lines 68--68
-\TU/ClearSans(0)/m/n/10 una cul-tura de tra-bajo basada en apren-
+Overfull \hbox (2.53546pt too wide) in paragraph at lines 68--68
+\TU/ClearSans(0)/m/n/10 tan-cia de una cul-tura de tra-bajo basada
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
@@ -1140,14 +1135,13 @@ c-nolo-gias web, con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--105
-
+Overfull \hbox (15.86351pt too wide) in alignment at lines 72--104
+[] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
-[]\TU/ClearSans(0)/m/n/10 Adquirir conocimien-tos fun-da-men-tales en Open Sourc
-e Soft-ware,
+Underfull \hbox (badness 10000) in paragraph at lines 72--105
+
  []
 
 
@@ -1218,7 +1212,12 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 225--225
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--277
+Overfull \hbox (1.56175pt too wide) in alignment at lines 228--286
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--287
 
  []
 
@@ -1230,11 +1229,12 @@ Package rerunfilecheck Info: File `DS_tex_file.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  28020 strings out of 478388
  125086,1144653 words of node,token memory allocated
- 1509 words of node memory still in use:
-   32 hlist, 1 vlist, 10 rule, 18 glue, 3 kern, 1 glyph, 97 attribute, 65 glue_s
-pec, 97 attribute_list, 2 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:1,2:2775,3:1817,4:132,5:678,6:102,7:9508,8:33,9:843,10:16,11:7
-74
+ 1519 words of node memory still in use:
+   32 hlist, 1 vlist, 10 rule, 18 glue, 3 kern, 1 glyph, 98 attribute, 65 glue_s
+pec, 98 attribute_list, 2 write, 39 pdf_literal, 1 pdf_action, 18 pdf_colorstack
+ nodes
+   avail lists: 1:1,2:2839,3:1831,4:136,5:643,6:106,7:8794,8:36,9:871,10:7,11:69
+6
  46987 multiletter control sequences out of 65536+600000
  67 fonts using 10655743 bytes
  115i,17n,111p,504b,859s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1242,10 +1242,10 @@ pec, 97 attribute_list, 2 write, 39 pdf_literal, 18 pdf_colorstack nodes
 usr/share/fonts/fontawesome/FontAwesome.otf></usr/share/texlive/texmf-dist/fonts
 /truetype/intel/clearsans/ClearSans-Bold.ttf></usr/share/texlive/texmf-dist/font
 s/truetype/intel/clearsans/ClearSans-Regular.ttf><./segoeuib.ttf>
-Output written on DS_tex_file.pdf (2 pages, 115434 bytes).
+Output written on DS_tex_file.pdf (2 pages, 115466 bytes).
 
-PDF statistics: 103 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  196 words of extra memory for PDF output out of 10000 (max. 100000000)
 

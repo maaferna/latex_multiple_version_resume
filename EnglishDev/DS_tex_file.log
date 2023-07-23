@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/CVE-2023-32700 patched)  (format=lualatex 2023.2.15)  11 JUN 2023 19:08
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/CVE-2023-32700 patched)  (format=lualatex 2023.2.15)  23 JUL 2023 17:47
  restricted system commands enabled.
 **DS_tex_file.tex
 (./DS_tex_file.tex
@@ -1242,7 +1242,7 @@ Here is how much of LuaTeX's memory you used:
  1509 words of node memory still in use:
    32 hlist, 1 vlist, 10 rule, 18 glue, 3 kern, 1 glyph, 97 attribute, 65 glue_s
 pec, 97 attribute_list, 2 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:1,2:2727,3:1765,4:106,5:633,6:105,7:8404,8:35,9:857,10:16,11:7
+   avail lists: 1:1,2:2727,3:1765,4:106,5:635,6:105,7:8400,8:35,9:857,10:16,11:7
 09
  46987 multiletter control sequences out of 65536+600000
  67 fonts using 10655743 bytes
@@ -1251,7 +1251,7 @@ pec, 97 attribute_list, 2 write, 39 pdf_literal, 18 pdf_colorstack nodes
 usr/share/fonts/fontawesome/FontAwesome.otf></usr/share/texlive/texmf-dist/fonts
 /truetype/intel/clearsans/ClearSans-Bold.ttf></usr/share/texlive/texmf-dist/font
 s/truetype/intel/clearsans/ClearSans-Regular.ttf><./segoeuib.ttf>
-Output written on DS_tex_file.pdf (2 pages, 114345 bytes).
+Output written on DS_tex_file.pdf (2 pages, 114362 bytes).
 
 PDF statistics: 105 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream
