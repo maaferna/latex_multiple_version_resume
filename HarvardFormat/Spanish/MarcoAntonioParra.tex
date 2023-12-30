@@ -1,19 +1,28 @@
 \documentclass[a4paper,10pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[left=0.6in, right=0.6in, top=1in, bottom=1in]{geometry} % Adjust left margin here
+\usepackage[left=0.6in, right=0.6in, top=1in, bottom=1in]{geometry}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref} % Use hidelinks to remove the default borders around links
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref} % Remove hyperlink borders
+\pagestyle{fancy}
+\usepackage{lmodern}
 
 % Define a medium font size
 \newcommand{\mediumfont}{\fontsize{12pt}{14pt}\selectfont}
 
 \begin{document}
 	
-	\pagestyle{empty}
+	\pagestyle{fancy}
+
+	% Set footer
+	\lfoot{Elaborado en: \today}
+	\rfoot{Página \thepage\ de \pageref{LastPage}\hspace{10pt}\hrule\vspace{10pt}}
+
 	
 	\begin{center}
 				\textbf{\LARGE Marco Antonio Parra Fernández} \\
-			    {\mediumfont Data Engineer / Full-Stack Web Developer} \\
+			    {\mediumfont Mgtr. Ingeniería Industrial / Full-Stack Web Developer} \\
 
 				\begin{minipage}[t]{0.45\textwidth}
 					\small +56 9 5629 1334 \\
@@ -41,30 +50,135 @@
 	conocimientos aplicados en el campo de la gestión de operaciones, planificación y control de la producción. Mi motivación
 	es desarrollar una carrera en la industria IT, a través de la construcción y mantenimiento de aplicaciones que den soluciones a problemáticas de la industria. Soy un profesional altamente motivado con habilidades excepcionales en programación, con comprensión profunda de las tendencias tecnológicas y una valiosa experiencia que aporta a proyectos desafiantes y variados.
 	
+		\section*{Keywords}
+	\small
+	Full Stack Web Development / Python / Data Analysis / Machine Learning / SQL / HTML / CSS / JavaScript / Data-driven Decision Making
+	
 	\section*{Formación académica}
 	\begin{itemize}[left=0pt]
 		\item \textbf{Magister en Ingeniería Industrial} \\
-		Universidad del Bío-Bío, 2017-2022 \\
-		Investigación de operaciones \& modelos de optimización (Metaheurísticas).
-		Tesis de grado: A meta-heuristic to minimize total tardiness in a job shop scheduling problem (Python).
-		
-		\item \textbf{Bootcamp: Desarrollo Full Stack Python Trainee Ruby On Rails} \\
-		Le-Wagon/Talento Digital, 2022
-		
-		\item \textbf{Bootcamp: Desarrollo Full Stack Python Trainee} \\
-		Eductecno/Talengo Digital, 2023 .        Eductecno/Talengo Digital, 2023. \textit{\href{https://www.acreditta.com/credential/1654395b-6317-44bf-9beb-18774afdb129}{Link to Credential}}
+		Universidad del Bío-Bío, 2017-2022. Investigación de operaciones \& modelos de optimización.
 		
 		
 	\end{itemize}
 	
 	\section*{Certificados}
 	% Add your certifications here
+				\small      
+			Mis competencias abarcan desde la adquisición y limpieza de datos, análisis y visualización, hasta el manejo de bases de datos.  En programación, cuento con sólidos conocimientos en Python, troubleshooting, debugging, Configuration Management y automatización de tareas. Poseo experiencia en arquitectura de bases de datos, funciones CRUD y desarrollo de consultas SQL aplicadas a data Science. Mis habilidades se extienden al desarrollo web con HTML, CSS3, y JavaScript. Además, tengo experiencia en entornos Linux y GIT. 
+		\begin{itemize}[left=0pt]
+			
+			\item \textbf{Bootcamp: Desarrollo Full Stack Python Trainee} \\
+			Eductecno/Talento Digital, Nov 2023. \textit{\href{https://www.acreditta.com/credential/1654395b-6317-44bf-9beb-18774afdb129}{Link to Credential}}			
+			
+			\item \textbf{Bootcamp: Desarrollo Ruby On Rails para emprendimientos de tipo Start-Up} \\
+			Le-Wagon/Talento Digital, Sep 2022.
+			
+			 \vspace{0.2cm} % Adjust the space between the sections with a light horizontal line
+			
+			\item \textbf{Análisis de Datos de Google} \\
+			Google, Dec 2023.
+			\textit{\href{}{}}
+			
+			\item \textbf{Full-Stack Web Development with React Specialization} \\
+			The Hong Kong University of Science and Technology, Oct. 2022.
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Full-Stack Web Development with React.pdf}{Link to Credential}}
+			
+			
+			\item \textbf{PostgreSQL for Everybody Specialization} \\
+			University Of Michigan, Ago  2022
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/PostgreSQL for Everybody Specialization.pdf}{Link to Credential}}
+			
+			\item \textbf{Web Design for Everybody: Basics of Web Development  Coding} \\
+			University Of Michigan, Ago 2022.
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Web Design for Everybody Specialization.pdf}{Link to Credential}}
+			
+			\item \textbf{Advanced Django: Mastering Django and Django Rest Framework Specialization} \\
+			Codio, Jul 2022.
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Advanced Django Mastering Specialization.pdf}{Link to Credential}}
+			
+			\item \textbf{Open Source Software Development, Linux and Git Specialization} \\
+			The Linux Fundation, May 2022.
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Open Source Software Development, Linux and Git.pdf}{Link to Credential}}
+			
+			\item \textbf{Applied Data Science with Python Specialization} \\
+			University Of Michigan, Mar 2022
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Applied Data Science with Python.pdf}{Link to Credential}}
+
+			\item \textbf{Google IT Automation with Python Professional Certificate} \\
+			Google, Mar 2022
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Google IT  Automation with Python.pdf}{Link to Credential}}
+			
+			\item \textbf{Python for Everybody Specialization} \\
+			University Of Michigan, Ago 2020. \textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/PythonforEverybodySpecialization.pdf}{Link to Credential}}
+			
+			
+			\item \textbf{Learn SQL Basics for Data Science Specialization} \\
+			UC Davis University Of California, Abr 2022.
+			\textit{\href{https://portfolio-mparraf.herokuapp.com/static/shared/Learn SQL Basics for Data Science Specialization.pdf}{Link to Credential}}
+			
+	
+	\end{itemize}
+	
 	
 	\section*{Skills}
-	% Add your skills here
+	\textbf{Programming Languages:} Python, JavaScript, Ruby \\
+	\textbf{Web Development:} Full Stack Web Development, Django, HTML, CSS, React, NodeJS, RoR, REST Framework, Responsive Web Design, Bootstrap \\
+	\textbf{Data Science:} Data Analysis, Machine Learning, Text Mining, Data Visualization, Statistical Analysis, Data Cleaning \\
+	\textbf{Data Science and Analysis external libraries:} Numpy, Pandas, Scikit-learn, Networkx, NLTK
+	\textbf{Visualization:} Matplotlib \\
+	\textbf{Database:} PostgreSQL, MySQ, NoSQL, MongoDB \\
+	\textbf{Version Control:} Git  \textbf{Operating Systems:} Linux \\
+	\textbf{Other Skills:} Microsoft Excel, Project Management, Troubleshooting, Debugging, Configuration Management \\
+
 	
 	\section*{Experiencia laboral}
 	% Add your work experience here
+		\begin{itemize}[left=0pt]
+			\item \textbf{\large Data Science and Web Development Freelancer:} Self-employed \hfill \textit{August 2022 - Present} \\
+			\small Como profesional freelancer especializado en Data Science y Desarrollo Full Slack Web Development, he emprendido diversos proyectos que combinan conocimientos analíticos de datos, además de la creación y mantenimiento de aplicaciones web. Mis responsabilidades incluyen:
+			\begin{itemize}[left=10pt]
+				\item Utilizar técnicas avanzadas de ciencia de datos para extraer información relevante de un conjunto de datos.
+				\item Diseñar e implementar aplicaciones web interactivas y visualmente atractivas que cumplan con las especificaciones del usuario.
+				\item Mantener el aprendizaje continuo y mantenerse actualizado sobre las últimas tendencias tanto en ciencia de datos como en desarrollo web.
+			\end{itemize}
+			
+			\item \textbf{\large Relator Freelancer, Microsoft Excel:} Mundo Diferente, Consultoría y Formación \hfill \textit{2020 - Present} \\
+			\small Como relator freelancer especializado en Microsoft Excel, colaboro con Mundo Diferente, Consultoría y Formación para ofrecer programas de capacitación de alta calidad. 
+			
+			\item \textbf{\large Ingeniero Proyecto:} Instituto Forestal - Universidad de Concepción \hfill \textit{2011 - 2012}
+			\begin{itemize}[left=10pt, topsep=0pt]
+				\item Desarrollo e implementación de programas de transferencia de tecnología en PYMES, en la gestión operativa y optimización de procesos.
+				\item Desarrollo de aplicaciones digitales para la adquisición, procesamiento y análisis de datos a través del uso de TI.
+			\end{itemize}
+		
+			\item \textbf{\large Ingeniero de Procesos:}  CMPC Maderas S.A\hfill \textit{2012 - 2016} 
+			\begin{itemize}[left=10pt, topsep=0pt]
+				\item Dirigí la optimización de la eficiencia operativa en los procesos productivos, garantizando el cumplimiento de los planes de producción.
+				\item Supervisé y controlé rigurosamente la calidad de los productos, asegurando la continuidad del proceso productivo.
+				\item Desarrollé y gestioné indicadores clave de desempeño para evaluar y mejorar la eficiencia en el proceso productivo.
+				\item Lideré un equipo de trabajo de 50 integrantes, fomentando un ambiente colaborativo y asegurando la eficacia en la producción.
+			\end{itemize}
+		
+			\item \textbf{\large Planificador Producción:} Arauco S.A \hfill \textit{2017 - 2019} 
+			\begin{itemize}[left=10pt, topsep=0pt]
+				  \item Optimicé planes de producción, coordinando eficientemente el flujo de trabajo para maximizar la eficiencia operativa.
+				\item Controlé los niveles actuales de producción y gestioné el stock de productos para garantizar una cadena de suministro fluida.
+				\item Desarrollé y gestioné indicadores clave de desempeño para evaluar y mejorar la eficiencia en el proceso productivo.
+				\item Dirigí un equipo de trabajo de 30 integrantes, promoviendo un ambiente colaborativo y asegurando la ejecución efectiva de los planes de producción.
+			\end{itemize}
+		\end{itemize}
+
+	
+	\section*{Language Proficiency}
+		\begin{itemize}
+		% Add your work experience here
+		\item \textbf{Spanish:} Native Language
+		\item \textbf{English:} Level B2 - Professional\\
+		\textit{Certificate of Proficiency with LEVEL 8 in platform Open English: "for demonstrating proficiencies that align to Level B2 as described by the Common European Framework for Reference (CEFR) for languages as of this 28th day of August, 2021."}
+		
+	\end{itemize}
+	
 	
 \end{document}
 
