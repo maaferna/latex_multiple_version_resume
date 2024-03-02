@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.2.15)  27 JAN 2024 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/CVE-2023-32700 patched) (preloaded format=pdflatex 2023.2.15)  2 MAR 2024 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,21 +405,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--135
-
- []
-
-[1
-
-{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-42.
-
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+5.
 (/usr/share/texlive/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+) [1
 
+{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] 
 AED: lastpage setting LastPage
 [2] (./MarcoAntonioParraOperaciones.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -432,19 +424,19 @@ anged.
 Here is how much of TeX's memory you used:
  9788 strings out of 480806
  146050 string characters out of 5905151
- 478106 words of memory out of 6000000
+ 479106 words of memory out of 6000000
  27054 multiletter control sequences out of 15000+600000
  437512 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,63p,732b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/font
+ 60i,11n,63p,542b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texlive/texmf-dist/font
 s/type1/public/lm/lmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 lm/lmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/lm/lmri9.pfb>
-Output written on MarcoAntonioParraOperaciones.pdf (2 pages, 170151 bytes).
+Output written on MarcoAntonioParraOperaciones.pdf (2 pages, 171022 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
